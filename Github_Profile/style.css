@@ -1,0 +1,82 @@
+body{
+    background-color: #424044;
+    color: white;
+}
+.container{
+    height: 90vh;
+}
+.searchArea{
+    text-align: center;
+    border-radius: 15px;
+    border: 2px solid ;
+    box-shadow: 0px 0px 5px black;
+    width: 60%;
+    background-color: #8f8888;
+    margin: auto;
+    padding: 30px;
+    margin-bottom: 5px;
+}
+.displayArea{
+    border-radius: 15px;
+    border: 2px solid ;
+    box-shadow: 0px 0px 5px black;
+    width: 60%;
+    background-color: #8f8888;
+    margin: auto;
+    padding: 30px;
+    margin-top: 10px;
+}
+#userName{
+    max-width: -webkit-fill-available;
+    padding:7px;
+    font-size: large;
+    background-color:#000000;
+    color: white;
+    border-radius: 10px;
+}
+#btn{
+    padding: 7px;
+    font-size: large;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+img{
+    background-color: orange;
+    height: 200px;
+    border-radius: 50%;
+}
+img:hover{
+    opacity: 0.9;
+    /* border: 2px solid; */
+    box-shadow: 0px 0px 5px white;
+}
+.userProfile{
+    text-align: center;
+}
+.userDetails{
+    margin: 2px 11% 2px 2px;
+}
+.repos{
+    margin: 2px 11% 2px 2px;
+}
+/* This repo is the class for the repos which are dynamic.. */
+.repo{
+    background-color: #585a66;
+    border-radius: 5px;
+    display: inline-block;
+    color: #fdf6f6;
+    font-size: 0.9rem;
+    padding: 0.25rem 0.5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    text-decoration: none;
+}
+.repo:hover{
+    color: blue;
+}
+#owner{
+    position: relative;
+    top: 11px;
+    font-weight: 600;
+}
