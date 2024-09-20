@@ -1,0 +1,27 @@
+* {
+    text-align: center;
+    background-color: rgb(202 198 195);
+}
+
+.container table {
+    background-color: rgb(179, 171, 165);
+    color: white;
+    box-shadow: 4px 6px black;
+}
+
+input {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+}
+
+h1 {
+    color: #0404049e;
+    font-family: fantasy;
+    font-weight: lighter;
+}
+
+table {
+    border-radius: 10px;
+    margin: auto;
+}
