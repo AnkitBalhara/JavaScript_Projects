@@ -1,0 +1,15 @@
+.container{
+    display: flex;
+    gap: 15px;
+    justify-content: space-evenly;
+    /* vertical-align: space-evenly; */
+
+}
+.box{
+    /* color: rgb(68, 85, 100); */
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+
+}
