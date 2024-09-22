@@ -1,0 +1,12 @@
+.dark {
+  filter: invert(1);
+}
+.light {
+  filter: none;
+}
+.togle-hide {
+  display: none;
+}
+.togle-show {
+  display: inline-block;
+}
