@@ -13,8 +13,11 @@ let death = document.getElementById("death");
 let deathdateinput = document.getElementById("deathdateinput");
 let deathdatelabel = document.getElementById("deathdatelabel");
 
+
+html.classList.add("dark");
+    html.classList.remove("light");
 theme.addEventListener("click", () => {
-  if (theme.checked) {
+  if (!theme.checked) {
     html.classList.add("light");
     html.classList.remove("dark");
     // alert("On")

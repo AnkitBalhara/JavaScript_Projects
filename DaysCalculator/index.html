@@ -12,17 +12,18 @@
 
 <body>
     <div class="container ">
-        <form action="">
+        <div class="toggle">
+            <div class="form-check form-switch">
+                <input class="form-check-input position-absolute top-0 end-0 theme" type="checkbox"
+                    id="flexSwitchCheckChecked" checked>
+            </div>
+
+        </div>
+        <form >
             <div class="header">
                 <h2>How many Days Old You Are !!!</h2>
             </div>
-            <div class="toggle">
-                <div class="form-check form-switch">
-                    <input class="form-check-input position-absolute top-0 end-0 theme" type="checkbox"
-                        id="flexSwitchCheckChecked" checked>
-                </div>
-
-            </div>
+            
             <div class="radioBox">
                 <input type="radio" name="flexRadioDefault" id="alive" checked>
                 <label for="alive">Alive</label>
@@ -30,11 +31,11 @@
                 <label for="death">Death</label>
             </div>
             <div class="dates">
-                <div>
+                <div class="birthDeatlis">
                     <label for="dateofbirth">Date of Birth :-</label>
                     <input type="date" name="dateofbirth" id="dateofbirth">
                 </div>
-                <div>
+                <div class="deathDeatlis">
                     <label for="dateofdeath" class=" togle-hide" id="deathdateinput">Date of Death :-</label>
                     <input type="date" class="togle-hide dateofdeath " id="deathdatelabel" name="dateofdeath">
                 </div>
@@ -49,6 +50,7 @@
                 </div>
             </div>
         </form>
+        <div class="owner">Created By :- Balhara</div>
     </div>
 
     <script src="index.js"></script>

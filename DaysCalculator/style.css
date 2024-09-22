@@ -1,3 +1,38 @@
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+.radioBox{
+    padding: 5px;
+    font-size: large;
+}
+#death{
+    margin:3% 0% 3% 7% ;
+}
+.dates{
+    margin: 3% 0% 3% 0%; 
+    font-size: large;
+    padding: 1%;
+}
+.deathDeatlis,.birthDeatlis{
+    margin: 4% 0%;
+}
+.days{
+    margin-bottom: 10%;
+}
+.owner{
+    position: absolute;
+    font-weight: 600;
+    right: 10px;
+    bottom: 10px;
+    font-size: larger;
+    font-family: ui-monospace;
+}
+
+
+/* CSS which is used for JS Work only */
 .dark {
   filter: invert(1);
 }
