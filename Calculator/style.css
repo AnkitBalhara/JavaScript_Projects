@@ -24,4 +24,5 @@ h1 {
 table {
     border-radius: 10px;
     margin: auto;
+    border: 2px;
 }
