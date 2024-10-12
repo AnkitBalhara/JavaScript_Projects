@@ -28,7 +28,7 @@ body{
     height: 165px;
     background-color: white;
     margin: 20px;
-    border: 2px dotted black;
+    border: 1px dotted black;
     padding: 2px;
     display: none;
 }
